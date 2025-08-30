@@ -24,3 +24,18 @@ Simple tasks created while learning Python — not advanced, but very useful for
    ```bash
    git clone https://github.com/NikolVoronina/python-education.git
 
+   Goals
+
+This repository is designed to:
+
+Keep a record of regular Python practice
+
+Show coding activity on GitHub
+
+Build confidence with simple, incremental tasks
+
+Navigation Tip
+
+Use the folder list above to quickly jump to the topic you want to revisit or expand upon.
+Happy coding! 🚀
+
