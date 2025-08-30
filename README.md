@@ -36,6 +36,5 @@ Build confidence with simple, incremental tasks
 
 Navigation Tip
 
-Use the folder list above to quickly jump to the topic you want to revisit or expand upon.
-Happy coding! 🚀
+
 
