@@ -42,3 +42,9 @@ def get_grade(s1, s2, s3): #overage grates
         return "D"
     else:
         return "F"
+    
+def remove_char(string):
+    if (len(string)== 2):
+        return ""
+    else:
+        return string [1:-1]
