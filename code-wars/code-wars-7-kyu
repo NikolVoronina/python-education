@@ -1,0 +1,19 @@
+import datetime
+def regular_months(curr_month):
+    m, y = map(int, curr_month.split('-'))
+
+    #here I start with a next month
+    m += 1
+    if m > 12:
+        m = 1
+        y += 1
+
+    while True:
+        d = datetime.date(y, m, 1)
+        if d.weekday() == 0:
+            return f"{m:02d}-{y}" #02d meaning: 0 if tall < 10, 2 count of simbols, d - int
+        
+        m += 1
+        if m > 12:
+            m = 1
+            y += 1
