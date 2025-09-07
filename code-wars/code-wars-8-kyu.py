@@ -10,7 +10,6 @@ def check(seq, elem):  #return examples
     else:
         return False
 
-
 def summation(num):    #sum funktion
     result = sum(range(1, num + 1))
     return result
@@ -48,3 +47,22 @@ def remove_char(string):
         return ""
     else:
         return string [1:-1]
+
+def digitize(n):  #int - tall, str - value
+    dig = [int(num) for num in str(n)][::-1]
+    return dig
+
+def area_or_perimeter(l , w):
+    if l == w: 
+        return l*w
+    else:
+        return 2*(l+w)
+      #Here I used the formula of Perimeter, like l*w...
+
+def past(h, m, s):
+    # here is the formula I found in the Inthernet: (h * 3600 + m * 60 + s) * 1000
+    ms_in_h = 3600 * 1000
+    ms_in_m = 60 * 1000
+    ms_in_s = 1000
+
+    return h * ms_in_h + m * ms_in_m + s * ms_in_s
