@@ -66,3 +66,28 @@ def past(h, m, s):
     ms_in_s = 1000
 
     return h * ms_in_h + m * ms_in_m + s * ms_in_s
+
+def array(string):  #Remove First and Last Character Part Two
+    if string == "": #check: is it empty?
+        return None
+    items = string.split (',')
+    sliced = items [1:-1]
+    
+    if not sliced : 
+        return None
+    return " ".join(sliced)
+
+def count_positives_sum_negatives(arr):  #Count of positives / sum of negatives
+    if not arr :
+        return []
+
+    positive = 0
+    negative = 0
+    
+    for number in arr :
+        if number > 0 :
+            positive +=1
+        elif number < 0 :
+            negative +=number
+        
+    return [positive, negative]
